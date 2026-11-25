@@ -99,6 +99,4 @@ AppInspect needs `pip install splunk-appinspect` in a Python 3.9 to 3.12 environ
 
 - AppInspect `--mode precert --included-tags cloud`: 0 failures, 0 errors, 0 warnings (splunk-appinspect 4.4.0).
 - The extractions are tested with Python's `re` against the real samples. They have not been run in a Splunk instance, and the CIM Alerts mapping has not been checked with the CIM validation dashboards.
-- The icons are placeholders (`scripts/make_icons.py`).
-- The contact address in `app.manifest` and the Apache-2.0 licence are placeholders for the owner to confirm before submission.
 - Splunk's default (non-cloud) precert run warns that `check_for_updates = true` belongs to apps listed on Splunkbase. That is intended for the listing; set it to `false` for a private install.
