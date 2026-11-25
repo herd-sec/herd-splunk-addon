@@ -1,0 +1,1 @@
+{"time":1795597200,"host":"herdsecurity.io","source":"herd","sourcetype":"herd:test","index":"herd","event":{"type":"ping","message":"Herd SIEM outbound webhook test event","sentAt":"2026-11-25T09:00:00.000Z"}}

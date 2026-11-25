@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "2.0.0",
+  "info": {
+    "title": "Herd Security Add-on for Splunk",
+    "id": {
+      "group": null,
+      "name": "TA-herd-security",
+      "version": "1.0.0"
+    },
+    "author": [
+      {
+        "name": "Herd Security",
+        "email": "support@herdsecurity.io",
+        "company": "Herd Security"
+      }
+    ],
+    "releaseDate": null,
+    "description": "Parses and normalises the security and risk events Herd Security sends to a Splunk HTTP Event Collector (phishing simulation results, training outcomes, compliance attestations, identity posture findings, AI findings) and maps them to the CIM Alerts data model.",
+    "classification": {
+      "intendedAudience": "Security",
+      "categories": ["Security, Fraud & Compliance", "Utilities"],
+      "developmentStatus": "Production/Stable"
+    },
+    "commonInformationModels": {
+      "Alerts": "^5.0.0"
+    },
+    "license": {
+      "name": "Apache License 2.0",
+      "text": "LICENSE.txt",
+      "uri": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseNotes": {
+      "name": null,
+      "text": "README.txt",
+      "uri": null
+    }
+  },
+  "dependencies": null,
+  "tasks": null,
+  "inputGroups": null,
+  "incompatibleApplications": null,
+  "platformRequirements": null,
+  "supportedDeployments": ["_standalone", "_distributed", "_search_head_clustering"],
+  "targetWorkloads": ["_search_heads", "_indexers"]
+}
